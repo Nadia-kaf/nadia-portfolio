@@ -8,6 +8,7 @@ export default function About(){
 
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque corporis vero, cum facere ea culpa quos similique quidem error delectus, sit laudantium. Pariatur fugiat, exercitationem labore ducimus similique esse laudantium!</p>
          </div>
+
         </>
     )
 }

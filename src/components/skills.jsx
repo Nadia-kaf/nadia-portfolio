@@ -28,7 +28,7 @@ const Scroll = () => {
           <a href="#">
             <img
             //   src={`https://savefiles.org/${skills.image}?shareable_link=163`}
-            src={html}
+            src={skills.image}
               alt="Product"
               className="h-40 w-30 object-cover rounded-t-xl"
             />

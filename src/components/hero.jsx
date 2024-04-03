@@ -14,8 +14,8 @@ export default function Hero(){
             <h3 className="font-bold ">a <span className="text-hot-pink"><ReactTyped
       classNameName="absolute text-black font-medium text-sm md:text-4xl pointer-events-none "
       strings={["Frontend Developer", "Backend Developer", "Full Stack Developer"]}
-      typeSpeed={20}
-      backSpeed={10}
+      typeSpeed={50}
+      backSpeed={25}
       loop
     /></span></h3>
 
@@ -34,7 +34,7 @@ export default function Hero(){
             <button className="bg-black text-white font-bold py-3 px-6 rounded hover:bg-indigo-600 hover:text-white mt-5">HIRE ME</button>
         </div>
         <div className="md:w-1/2 ml-96">
-            <img src={heropic} alt="Hero Image" className="w-full rounded-xl"/>
+            <img src="" alt="Hero Image" className="w-full rounded-xl"/>
         </div>
     </div>
 </section>

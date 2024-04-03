@@ -1,6 +1,9 @@
 
+import About from "../components/about";
+import Footer from "../components/footer";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
+import Projects from "../components/project";
 import Resume from "../components/resume";
 
 export default function HomePage(){
@@ -8,7 +11,10 @@ export default function HomePage(){
         <>
         <Navbar/>
         <Hero/>
+        <About/>
         <Resume/>
+        <Projects/>
+        <Footer/>
         </>
     )
 }

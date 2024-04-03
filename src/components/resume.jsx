@@ -37,11 +37,25 @@ import Scroll from "./skills";
   return(
     
 <>
+<div class="area">
+			<ul class="circles">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
   <section>
-    <h1 className="ml-96 mb-10 font-bold text-4xl">My Resume </h1>
+    <h1 className=" text-white pt-14 pb-20 text-xl md:text-4xl relative z-10 text-center font-medium">My Resume </h1>
 
 
-    <Tabs value="html" className="mx-auto w-full">
+    <Tabs value="html" className="mx-auto w-10/12">
       <TabsHeader>
         {data.map(({ label, value }) => (
           <Tab key={value} value={value}>

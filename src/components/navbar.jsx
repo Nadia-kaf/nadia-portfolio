@@ -1,7 +1,7 @@
 
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import profile from "../assets/10.jpg"
 
 const navigation = [
@@ -18,7 +18,7 @@ function classNames(...classes) {
 export default function Navbar(){
 
     return (
-    <Disclosure as="nav" className="bg-light-blue">
+    <Disclosure as="nav">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -37,10 +37,11 @@ export default function Navbar(){
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
+                  <h5>NADIA</h5>
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
+                    // src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    // alt="Your Company"
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
@@ -131,7 +132,7 @@ export default function Navbar(){
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.current ? 'bg-white text-black' : 'text-black hover:bg-gray-700 hover:text-white',
                     'block rounded-md px-3 py-2 text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}

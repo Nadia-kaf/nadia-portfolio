@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import htmls from "../assets/Htmls.png";
-import css from "../assets/CSS.png";
+import html from "../assets/html.png";
+import CSS from "../assets/CSS.png";
 import javascript from "../assets/js.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind-css.png";
@@ -9,52 +9,53 @@ import nodejs from "../assets/nodejs.png";
 
 
 const Scroll = () => {
-  const [playing, setPlaying] = useState(true);
+ 
   const skills =[
     {
-        image: {htmls},
+        image: html,
         title: "HTML",
         proficiency: "intermediate",
     },
     {
-        image: {css}, 
+        image: CSS, 
         title: "CSS",
         proficiency: "",
     },
     {
-        image: {javascript}, 
+        image: javascript, 
         title: "JavaScript",
         proficiency: "",
     },
     {
-        image: {react}, 
+        image: react, 
         title: "REACT",
         proficiency: "",
     },
     {
-        image:{nodejs}, 
-        title: "Nodejs",
+        image:nodejs, 
+        title: "NodeJs",
         proficiency: "",
     },
     {
-        image: {tailwind}, 
-        title: "Tailwind Css",
+        image: tailwind, 
+        title: "Tailwind CSS",
         proficiency: "",
     },
   ]
   
   return (
     <div className="drop-shadow-2xl">
+      
 
 <div className="w-full px-40 flex flex-col justify-center">
   <div className="overflow-x-scroll pb-10 hide-scroll-bar mt-10 mb-10">
     <div className="flex flex-nowrap">
             {skills.map((skills) => {
               return (
-                <div>
-                  <img src={skills.image} alt=""  className="h-64 w-64 rounded-lg pr-1 pl-1"/>
-                  <p className=" pr-10 pl-10">{skills.title}</p> 
-                  <p className=" pr-10 pl-10">{skills.proficiency}</p> 
+                <div className='shadow-lg bg-slate-800 border-slate-400    backdrop-filter backdrop-blur-xl bg-white/30 bg-opacity-50 relative' >
+                  <img src={skills.image} alt=""  className="w-64  pr-5 pl-1"/>
+                  <p className=" pr-10 pl-10 text-white">{skills.title}</p> 
+                  <p className=" pr-10 pl-10 text-white">{skills.proficiency}</p> 
                 </div>
 
               )

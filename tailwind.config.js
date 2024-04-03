@@ -7,6 +7,8 @@ module.exports =withMT ({
       colors:{
         "light-blue" : "#ECF0F3",
         "hot-pink"   : "#FF014F",
+        "mine-blue": "#4e54c8",
+        "mini-blue": "#8f94fb",
       },
     },
   },

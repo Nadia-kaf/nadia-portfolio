@@ -8,7 +8,7 @@ import {
   } from "@material-tailwind/react";
 import Education from "./education";
 import Experience from "./experience";
-import Scroll from "./skills";
+import Skills from "./skills";
    
   export default function Resume() {
    
@@ -26,7 +26,7 @@ import Scroll from "./skills";
       {
         label: "Skills",
         value: "skills",
-        desc: <Scroll/>,
+        desc: <Skills/>,
       },
      
     ];

@@ -27,7 +27,7 @@ export default function Education(){
       <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-6 mb-10">
         <div class="flex justify-between mb-4">
           <a href="#!" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">Web Development</a>
-          <a href="#!" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">05 / 02 / 2024</a>
+          <a href="#!" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm ml-5">05/02/2024</a>
         </div>
         <p class="text-gray-700 mb-6">Institution Name: MEST</p>
       </div>

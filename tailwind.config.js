@@ -11,6 +11,7 @@ module.exports =withMT ({
         "mini-blue": "#8f94fb",
         "cherry-red": "#630238",
         "shady": "#E5E4E2",
+        "shade-purple":"#AB208C"
 
       },
     },

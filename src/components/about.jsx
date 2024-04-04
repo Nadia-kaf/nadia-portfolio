@@ -15,11 +15,12 @@ export default function About() {
 				<li></li>
 			</ul>
 		</div>
-      <div className="">
-        <div class="max-w-sm  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ml-96 mt-24 p-20">
+    <hr class="my-6 border-blueGray-300" />
+      <div id="about">
+        <div class="w-96  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ml-96 mt-20 p-18  ">
           <a href="#">
             <h5 class="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          About <span className="text-hot-pink">Me</span>
+          About <span className="text-cherry-red">Me</span>
             </h5>
           </a>
           <p class="mb-3 font-normal">

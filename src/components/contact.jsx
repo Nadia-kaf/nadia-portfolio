@@ -14,8 +14,9 @@ export default function Contact(){
 				<li></li>
 				<li></li>
 			</ul>
-		</div>   
-        <div class="h-screen flex justify-center items-center">
+		</div>  
+        <hr class="my-6 border-blueGray-300" /> 
+        <div class="h-screen flex justify-center items-center" id="contact">
     <div class="py-8 w-80 px-6 max-w-md bg-white bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter">
         <p class="text-lg text-center text-gray-700 mb-8">Contact Me</p>
         <form class="flex flex-col">

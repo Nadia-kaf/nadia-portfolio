@@ -7,21 +7,8 @@ import decor from "../assets/Decor.png";
 export default function Projects() {
     return (
         <>
-         <div class="area">
-			<ul class="circles">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</div>
-        <section class="ps-24 pe-24" id="portfolio">
+         <hr class="my-6 border-blueGray-300" />
+        <section class="ps-24 pe-24 bg-mine-blue" id="projects" >
 
        <div class="ps-4 pe-4">
 
@@ -63,6 +50,7 @@ export default function Projects() {
                 </div>
             </div>
         </li>
+       
         <li>
             <div class="group relative align-center rounded-2xl overflow-hidden h-5/6">
 
@@ -75,7 +63,7 @@ export default function Projects() {
                         <a href="#" class="text-white">Decor Pro</a>
                     </h2>
 
-                    <Link to="https://onyx-movie-search-app-hazel.vercel.app/" target="_blank" class="text-xs text-white decoration-none">Live <i class="fa-solid fa-eye"></i></Link>
+                    <Link to="https://decor-pro.vercel.app/" target="_blank" class="text-xs text-white decoration-none">Live <i class="fa-solid fa-eye"></i></Link>
                 </div>
             </div>
         </li>
@@ -84,8 +72,8 @@ export default function Projects() {
    {/* <div  className='px-10 pb-10'>
    <Link to="/projects"><button className='px-10 py-2 text-violet-700 hover:text-white focus:text-white bg-slate-300 hover:bg-violet-700 focus:hover:bg-violet-700 rounded-xl transition delay-50 duration-500 ease-in-out'>more <i class="fa-solid fa-arrow-right"></i></button></Link>
    </div> */}
+   
 </div>
-
 </section>
         </>
     );

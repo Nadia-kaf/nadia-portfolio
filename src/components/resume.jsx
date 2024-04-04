@@ -51,7 +51,8 @@ import Scroll from "./skills";
 				<li></li>
 			</ul>
 		</div>
-  <section>
+  <section id="resume">
+  <hr class="my-6 border-blueGray-300" />
     <h1 className=" text-white pt-14 pb-20 text-xl md:text-4xl relative z-10 text-center font-medium">My Resume </h1>
 
 

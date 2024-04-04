@@ -9,6 +9,9 @@ module.exports =withMT ({
         "hot-pink"   : "#FF014F",
         "mine-blue": "#4e54c8",
         "mini-blue": "#8f94fb",
+        "cherry-red": "#630238",
+        "shady": "#E5E4E2",
+
       },
     },
   },

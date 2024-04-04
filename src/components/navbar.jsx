@@ -2,14 +2,15 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import profile from "../assets/10.jpg"
+import profile from "../assets/10.jpg";
+import { HashLink as Link} from 'react-router-hash-link';
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'About', href: '#', current: false },
-  { name: 'Skills', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'Home', to: '#home' },
+  { name: 'About', to: '#about' },
+  { name: 'Resume', to: '#resume'},
+  { name: 'Projects', to: '#projects'},
+  { name: 'Contact', to: '#contact'},
 ]
 
 function classNames(...classes) {
@@ -47,17 +48,16 @@ export default function Navbar(){
                 <div className="hidden sm:ml-6 sm:block">
                   <div className=" absolute flex justify-end flex-row  space-x-4 ml-96 ">
                     {navigation.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
-                        )}
-                        aria-current={item.current ? 'page' : undefined}
+                        to={item.to}
+                        className='bg-gray-900 text-white text-gray-300 hover:bg-gray-700 hover:text-white
+                          rounded-md px-3 py-2 text-sm font-medium'
+                  
+                  
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
@@ -90,7 +90,7 @@ export default function Navbar(){
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            to="#"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Your Profile
@@ -100,7 +100,7 @@ export default function Navbar(){
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            to="#"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Settings
@@ -110,7 +110,7 @@ export default function Navbar(){
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            to="#"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Sign In
@@ -130,7 +130,7 @@ export default function Navbar(){
                 <Disclosure.Button
                   key={item.name}
                   as="a"
-                  href={item.href}
+                  to={item.to}
                   className={classNames(
                     item.current ? 'bg-white text-black' : 'text-black hover:bg-gray-700 hover:text-white',
                     'block rounded-md px-3 py-2 text-base font-medium'

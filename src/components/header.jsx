@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import Menu from './Menu';
+import Menu from './menu.jsx';
 
-function App() {
+function Header() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
-    <nav className="bg-gray-400">
+    <nav>
       <div className="max-w-7xl mx-auto flex items-center justify-between h-16 px-4 border-b border-solid border-slate-600">
-        <div className="flex-shrink-0 font-bold tracking-wider">
-          LOGO
+        <div className="flex-shrink-0 font-bold tracking-wider text-white">
+          NKB
         </div>
         <div className="hidden md:block">
           <Menu />
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default Header;

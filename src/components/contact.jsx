@@ -39,7 +39,7 @@ export default function Contact(){
                 </div>
             </div>
         </div>
-        <div class="lg:w-1/3 md:w-1/2  flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+        <div class="lg:w-1/3 md:w-1/2  flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 bg-mine-blue">
         <div class="h-screen flex justify-center items-center" id="contact">
     <div class="py-8 w-80 px-6 max-w-md bg-white bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter">
         <p class="text-lg text-center text-gray-700 mb-8">Contact Me</p>
@@ -60,7 +60,7 @@ export default function Contact(){
         </form>
     </div>
 </div>
-           </div>
+</div>
     </div>
 </section>
 </>

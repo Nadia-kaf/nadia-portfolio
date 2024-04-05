@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -17,25 +18,19 @@ export default function Footer() {
                 class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <i class="fa-brands fa-instagram"></i>
+               <Link to="https://www.instagram.com/nadia_blessy20?igsh=MXZrYmhzaGVzODVvYw=="> <i class="fa-brands fa-instagram"></i></Link>
               </button>
               <button
                 class="bg-white text-blue-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <i class="fa-brands fa-facebook"></i>
-              </button>
-              <button
-                class="bg-white text-blue-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                type="button"
-              >
-                <i class="fa-brands fa-linkedin"></i>
+               <Link to="https://www.linkedin.com/in/nadia-kafui-bokordedzi-196260222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i class="fa-brands fa-linkedin"></i></Link>
               </button>
               <button
                 class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <i class="fab fa-github"></i>
+                <Link to="https://github.com/Nadia-kaf"><i class="fab fa-github"></i></Link>
               </button>
             </div>
           </div>
@@ -49,7 +44,7 @@ export default function Footer() {
                   <li>
                     <a
                       class="text-slate-300 hover:underline font-semibold block pb-2 text-sm"
-                      href="/About"
+                      href="#about"
                     >
                       About me
                     </a>

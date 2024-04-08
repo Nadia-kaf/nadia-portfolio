@@ -8,7 +8,7 @@ import CV from "../assets/CV.pdf"
 export default function Hero(){
     return (
        <>
-      <section className=" px-4 h-screen md:h-screen lg:h-screen" id="home">
+      <section className=" px-4 pb-36 h-full md:h-screen lg:h-full" id="home">
     <div className="container mx-auto  flex flex-col md:flex-row lg:flex-row justify-between items-center">
 
     <div className="md:w-1/2 ">

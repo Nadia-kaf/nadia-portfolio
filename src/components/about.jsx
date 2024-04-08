@@ -19,7 +19,7 @@ function About(props) {
     </ul>
   </div> 
   <hr class="my-6 border-blueGray-300" />
-      <section id='about' className=" " >
+      <section id='about' className="" >
       <h2 className=' text-shady text-center text-4xl  lg:ml-30 lg:mb-3 '>About <span className="text-shade-purple">Me</span></h2>
           <div className=' grid grid-cols-1 md:grid-cols-2 '>
            <div className="shadow-lg  border-slate-400    backdrop-filter backdrop-blur-xl bg-transparent bg-opacity-50 relative mb-30 h-96 pt-10 ">
@@ -59,20 +59,7 @@ function About(props) {
                   </div>
               </div>
               </div>
-              <div class="area">
-    <ul class="circles">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </div> 
+              
 
       </section>
       </>

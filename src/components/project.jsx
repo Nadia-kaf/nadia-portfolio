@@ -48,7 +48,7 @@ export default function Projects() {
                      </span>
                     </div>
                     <p className="text-sm font-bold text-black truncate block capitalize">
-                    Desc: I am a collaborator to this project. 
+                    Desc: I am a member of the team who created this project. 
                     <br />
                     <span className="italic text-blue">Kindly tap on the image for a display on the website.</span>   </p>
                    </div>
@@ -71,7 +71,7 @@ export default function Projects() {
                      </span>
                     </div>
                     <p className="text-sm font-bold text-black">
-                    Desc:  This is a movie search I collaborated in.
+                    Desc:  This is a movie search app I collaborated in.
                     <br />
                     <span className="italic text-blue">Kindly tap on the image for a display on the website.</span> 
                      </p>

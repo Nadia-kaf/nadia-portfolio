@@ -47,7 +47,7 @@ export default function Projects() {
                       Name:  AgroMart E-commerce  App               
                      </span>
                     </div>
-                    <p className="text-sm font-bold text-black truncate block capitalize">
+                    <p className="text-sm font-bold">
                     Desc: I am a member of the team who created this project. 
                     <br />
                     <span className="italic text-blue">Kindly tap on the image for a display on the website.</span>   </p>

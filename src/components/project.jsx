@@ -3,6 +3,7 @@ import agromartshot from "../assets/AgroMart.png";
 import onyxcinemashot from "../assets/OnyxCinema.png";
 import decor from "../assets/Decor.png";
 import bling from "../assets/blingweb.png"
+import bookmedics from "../assets/bookmedics.png"
 
 export default function Projects() {
   return (
@@ -29,9 +30,9 @@ export default function Projects() {
             Projects
           </p>
 
-          <div className="flex flex-col mb-80 ml-2 w-10/12 ">
-              <div className="  grid gap-x-4 gap-y-2 grid-cols-4">
-                <div className= "flex flex-nowrap">
+          <div className="flex flex-col  ml-2 md:w-full sm:w-full w-[100%] max-w-[100%] ">
+              <div className="  grid  grid-cols-1 gap-y-4 md:grid-cols-2 lg:grid-cols-4 ">
+                
                     <div className="w-72 h-72 mr-3 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
                    <Link to="https://onyx-agro-mart-eta.vercel.app/products"
                     target="_blank"
@@ -117,7 +118,26 @@ export default function Projects() {
                     <br />
                     <span className="italic text-blue">Kindly tap on the image for a display on the website.</span>  </p>
                    </div>
+                    <div className="w-72 h-72 mr-3 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
+                   <Link to="https://book-medics.vercel.app/"
+                    target="_blank"
+                    className="text-xs text-white decoration-none" > <img
+                    src={bookmedics}
+                    alt=""
+                    className="h-40 w-72 object-cover rounded-t-xl"
+                  /></Link>
+            
+                    <div className="flex justify-start w-80">
+                    <span className="mr-44 text-gray-800 font-bold  uppercase text-sm">
+                      Name: BookMedics App                 
+                     </span>
                     </div>
+                    <p className="pt-2 text-sm font-bold text-black">
+                    Desc:This is my react  project for medical appointment.
+                    <br />
+                    <span className="italic text-blue">Kindly tap on the image for a display on the website.</span>  </p>
+                   </div>
+                  
                   </div>
 
 

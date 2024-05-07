@@ -62,7 +62,7 @@ export default function Experience(){
           <a href="#!" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">11/2022-07/23</a>
         </div>
         <p class="text-gray-700 mb-6">Institution Name: ST. Martin's Memorial Hospital</p>
-        <button type="button" class="inline-block px-3.5 py-1 border-2 border-purple-600 text-purple-600 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out" data-mdb-ripple="true">See demo</button>
+        
       </div>
     </div>
   </li>
